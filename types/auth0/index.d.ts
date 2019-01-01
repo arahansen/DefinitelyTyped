@@ -335,6 +335,7 @@ export interface User {
   app_metadata?: AppMetadata;
   user_metadata?: UserMetadata;
   picture?: string;
+  picture_large?: string;
   name?: string;
   nickname?: string;
   multifactor?: string[];
